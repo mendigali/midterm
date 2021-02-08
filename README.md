@@ -1,0 +1,1 @@
+# Temir Mendigali Midterm project

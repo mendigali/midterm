@@ -1,0 +1,205 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+
+    font-family: 'Roboto', sans-serif;
+
+    line-height: 1.5;
+
+    color: #fff;
+    background: #1a1a1d;
+}
+
+*,
+* after,
+* before {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    width: 100%;
+
+    z-index: 1;
+
+    background: #111;
+
+    border-bottom: 1px solid #c3033f;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+/* Welcome */
+.welcome {
+    padding-top: 100px;
+}
+
+.welcome h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.welcome h1::after {
+    display: block;
+    content: "";
+
+    background: #c3033f;
+
+    width: 450px;
+    height: 3px;
+
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* Students */
+.students {
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+.students_header {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.students_header::after {
+    display: block;
+    content: "";
+
+    background: #c3033f;
+
+    width: 200px;
+    height: 3px;
+
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.carousel-img {
+    height: 600px;
+}
+
+/* Advantages */
+.advantage_header {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+
+    margin-bottom: 20px;
+}
+
+
+.advantage-item {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+
+    border-bottom: 2px solid #6f2232;
+}
+
+.advantage-item:last-child {
+    border: 0;
+}
+
+/* Buy */
+.subscription-header {
+    margin-top: 500px;
+}
+
+.buy {
+    margin-top: 350px;
+}
+
+.card {
+    width: 300px;
+
+    background: #1a1a1d;
+
+    border: 2px solid #fff;
+    border-radius: 10px;
+
+    margin-top: 20px;
+}
+
+.card_header {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+
+    margin-bottom: 20px;
+}
+
+.card img {
+    height: 300px;
+}
+
+.btn {
+    background: #c3033f;
+    border: 1px solid #c3033f;
+}
+
+.btn:hover {
+    background: #1a1a1d;
+    border: 1px solid #fff;
+}
+
+/* Footer */
+footer {
+    background-color: #0b0c10;
+
+    padding: 20px 0;
+    margin-top: 100px;
+}
+
+.footer_left {
+    display: flex;
+    align-items: center;
+
+    height: 100%;
+
+    margin-bottom: 10px;
+}
+
+.footer_right {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 100%;
+}
+
+.social_link {
+    margin-right: 15px;
+}
+
+.social_link:last-child {
+    margin: 0;
+}
+
+.social_logo {
+    width: 50px;
+
+    transition: 0.2s ease;
+}
+
+.social_logo:hover {
+    transform: scale(1.1);
+}
